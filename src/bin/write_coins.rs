@@ -26,5 +26,5 @@ fn main(){
 
   let _ = create_coin(&connection, coinname, price);
 
-  println!("\n ... Coin {} generated in 5ms with price of {}", coinname, price);
+  println!("\n ... Coin {} generated in 5ms with price of {} with id {}", coinname, price, coin.id);
 }
