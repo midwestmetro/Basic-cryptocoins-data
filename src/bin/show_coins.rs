@@ -15,9 +15,9 @@ fn main(){
   for coin in results {
     println!("{}", coin.coinname);
     println!("---------------\n");
-    println!("{}", coin.price);
-    println!("{}", coin.bearish);
-    println!("{}", coin.bullish);
-    println!("{}", coin.approved);
+    println!("solana price: {}", coin.price);
+    println!("solana ^^%: {}", coin.bearish);
+    println!("solana ***%: {}", coin.bullish);
+    println!("data approved ? {}", coin.approved);
   }
 }
