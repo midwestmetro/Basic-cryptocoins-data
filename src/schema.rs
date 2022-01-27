@@ -5,5 +5,6 @@ table! {
         price -> Text,
         bearish -> Bool,
         bullish -> Bool,
+        approved -> Bool,
     }
 }

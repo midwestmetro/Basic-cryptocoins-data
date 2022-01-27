@@ -4,5 +4,6 @@ CREATE TABLE coins(
   coinname VARCHAR NOT NULL,
   price VARCHAR NOT NULL,
   bearish BOOLEAN NOT NULL DEFAULT 'f',
-  bullish BOOLEAN NOT NULL DEFAULT 'f'
+  bullish BOOLEAN NOT NULL DEFAULT 'f',
+  approved BOOLEAN NOT NULL DEFAULT 'f'
 )
